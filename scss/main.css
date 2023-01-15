@@ -351,4 +351,247 @@ header nav ul a:hover {
   top: 0;
   right: 0;
 }
+
+.s-card-neon {
+  padding-top: 129px;
+}
+
+.s-card-neon .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.s-card-neon .left-area {
+  width: 100%;
+  max-width: 277px;
+}
+
+.s-card-neon .left-area .ilutra-mockup {
+  width: 100%;
+  max-width: 277px;
+  position: relative;
+  margin-bottom: 129px;
+}
+
+.s-card-neon .left-area .ilutra-mockup .circle {
+  position: absolute;
+  z-index: -1;
+  top: 87px;
+  max-width: 377px;
+  left: -214px;
+}
+
+.s-card-neon .left-area .text {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.s-card-neon .left-area .text .icon {
+  position: relative;
+}
+
+.s-card-neon .left-area .text .icon::before {
+  content: '';
+  width: 5px;
+  height: 83px;
+  background: url(../img/points.svg) no-repeat center center;
+  position: absolute;
+  top: -104px;
+  left: 50%;
+  margin-left: -2.5px;
+}
+
+.s-card-neon .left-area .text .info-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.s-card-neon .left-area .text .info-text h3 {
+  text-align: center;
+  margin-top: 36px;
+  color: #33303E;
+}
+
+.s-card-neon .left-area .text .info-text p {
+  text-align: center;
+  font-size: 16px;
+  line-height: 150%;
+  color: gray-400;
+  opacity: 0.8;
+  margin-bottom: 26px;
+}
+
+.s-card-neon .left-area .text .info-text ul li:not(:last-child) {
+  margin-bottom: 26px;
+}
+
+.s-card-neon .right-area {
+  width: 100%;
+  max-width: 800px;
+}
+
+.s-card-neon .right-area .main-text {
+  margin-bottom: 144px;
+}
+
+.s-card-neon .right-area .main-text h2 {
+  max-width: 488px;
+  color: #33303E;
+  margin-bottom: 48px;
+}
+
+.s-card-neon .right-area .main-text ul {
+  margin-bottom: 32px;
+}
+
+.s-card-neon .right-area .main-text ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid rgba(225, 224, 231, 0.9);
+  padding: 33px 0px;
+}
+
+.s-card-neon .right-area .main-text ul li:first-child {
+  padding-top: 0px;
+}
+
+.s-card-neon .right-area .main-text ul li .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.s-card-neon .right-area .main-text ul li .info .txt {
+  margin-left: 43px;
+}
+
+.s-card-neon .right-area .main-text ul li .info .txt h3 {
+  color: #5F5C6B;
+}
+
+.s-card-neon .right-area .main-text ul li .info .txt p {
+  font-size: 18px;
+  line-height: 150%;
+  color: #7A7786;
+}
+
+.s-card-neon .right-area .main-text .btn {
+  position: relative;
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 112%;
+  letter-spacing: -0.5px;
+  color: #0073CE;
+}
+
+.s-card-neon .right-area .main-text .btn::after {
+  content: "";
+  position: absolute;
+  right: -18px;
+  bottom: 0;
+  width: 10px;
+  height: 3px;
+  background-color: #FFC800;
+}
+
+.s-card-neon .right-area .box-card {
+  width: 100%;
+  height: 410px;
+  background: url("../img/bg-box-card-neon.svg") no-repeat center center;
+  border-radius: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 59px;
+}
+
+.s-card-neon .right-area .box-card .text {
+  width: 100%;
+  max-width: 380px;
+}
+
+.s-card-neon .right-area .box-card .text h2 {
+  color: #FFFFFF;
+  margin-bottom: 11px;
+}
+
+.s-card-neon .right-area .box-card .text h3 {
+  color: #FFFFFF;
+  max-width: 327px;
+  margin-bottom: 8px;
+}
+
+.s-card-neon .right-area .box-card .text p {
+  font-size: 16px;
+  line-height: 150%;
+  color: #FFFFFF;
+  margin-bottom: 31px;
+}
+
+.s-card-neon .right-area .box-card .text .btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.s-card-neon .right-area .box-card .text .btns button:not(:first-child) {
+  margin-left: 16px;
+}
+
+.s-card-neon .right-area .box-card .image {
+  margin-right: -31px;
+}
 /*# sourceMappingURL=main.css.map */

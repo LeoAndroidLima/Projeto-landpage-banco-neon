@@ -277,16 +277,17 @@
                     margin-bottom: 31px;
                 }
 
-                .btns{
+                .btns {
                     display: flex;
                     align-items: center;
-                    button{
-                        &:not(:first-child){
+
+                    button {
+                        &:not(:first-child) {
                             margin-left: 16px;
                         }
                     }
-                    
-                    
+
+
                 }
 
             }
@@ -298,5 +299,50 @@
 
 
     }
+
+}
+
+.s-depoimentos {
+    padding-top: 134px;
+
+    .top {
+        @include flex(row, flex-end, space-between);
+
+        margin-bottom: 40px;
+
+        h2 {
+
+            span {
+                display: block;
+                color: $gray-200;
+                margin-bottom: 14px;
+            }
+        }
+
+        .swiper-pagination {
+         position: relative;
+         width: auto;
+
+            .swiper-pagination-bullet {
+                background: $brand-yellow;
+                border-radius: 12px;
+                opacity: 0.3;
+                transition: all .3s;
+                &:not(:first-child){
+                    margin-left: 4px;
+                }
+
+                &-active{
+                    opacity: 1;
+                    width: 17.23px;
+                }
+            }
+        }
+    }
+
+    .slide-depoimentos {
+        overflow: hidden;
+    }
+
 
 }

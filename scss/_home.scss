@@ -320,19 +320,20 @@
         }
 
         .swiper-pagination {
-         position: relative;
-         width: auto;
+            position: relative;
+            width: auto;
 
             .swiper-pagination-bullet {
                 background: $brand-yellow;
                 border-radius: 12px;
                 opacity: 0.3;
                 transition: all .3s;
-                &:not(:first-child){
+
+                &:not(:first-child) {
                     margin-left: 4px;
                 }
 
-                &-active{
+                &-active {
                     opacity: 1;
                     width: 17.23px;
                 }
@@ -345,4 +346,90 @@
     }
 
 
+}
+
+.s-conta-digital {
+    padding-top: 127px;
+    padding-bottom: 85px;
+
+    .container{
+        display: flex;
+        align-items: center;
+    }
+
+    .text {
+        max-width: 542px;
+
+        h2 {
+            color: $gray-600;
+            margin-bottom: 45px;
+
+            span {
+                display: block;
+                color: rgba(198, 197, 206, 0.8);
+                margin-bottom: 9px;
+            }
+        }
+
+        ul {
+            margin-bottom: 61px;
+
+            li {
+                display: flex;
+                align-items: center;
+
+                &:not(:last-child) {
+                    margin-bottom: 45px;
+                }
+
+                .icon {
+                    width: 45px;
+                    height: 45px;
+                    background-color: $brand-green-light;
+                    border-radius: 8px;
+                    @include flex(row, center, center);
+                    margin-right: 26px;
+                }
+
+                .info {
+                    h4 {
+                        margin-bottom: 4px;
+                        color: $gray-400;
+                    }
+
+                    p {
+                        font-size: 18px;
+                        line-height: 150%;
+                        color: $gray-300;
+                    }
+                }
+            }
+
+        }
+    }
+
+    .image{
+        position: relative;
+        width: 100%;
+        max-width: 712px;
+        height: 598px;
+        margin-right: -38px;
+        left: 125px;
+        img{
+            position: absolute;
+            &.mockup-01{
+                left: 0;
+                bottom: 47px;
+            }
+            &.mockup-02{
+                top: 3;
+                left: 258px;
+
+            }
+            &.circle{
+                right: 0;
+                bottom: 0;
+            }
+        }
+    }
 }

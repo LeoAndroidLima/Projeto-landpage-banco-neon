@@ -39,4 +39,44 @@ header {
             }
         }
     }
+
+    .btn-mobile{
+        display: none;
+        margin-left: 40px;
+    }
+
+    @include responsive(1085px){
+        nav{
+            ul{
+                margin-right: 30px;
+                li{
+                    &:not(:first-child){
+                        margin-left: 25px;
+                    }
+                }
+            }
+        }
+    }
+    @include responsive(1004px){
+        .logo{
+            max-width: 108px;
+        }
+        nav{
+            ul{
+                display: none;
+            }
+        }
+        .btn-mobile{
+            display: block;
+            
+        }
+    }
+    @include responsive(489px){
+        height: 73px;
+        nav{
+            .btn-secondary{
+                display: none;
+            }
+        }
+    }
 }

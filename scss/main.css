@@ -221,6 +221,41 @@ header nav ul a:hover {
   color: #FFC800;
 }
 
+header .btn-mobile {
+  display: none;
+  margin-left: 40px;
+}
+
+@media (max-width: 1085px) {
+  header nav ul {
+    margin-right: 30px;
+  }
+  header nav ul li:not(:first-child) {
+    margin-left: 25px;
+  }
+}
+
+@media (max-width: 1004px) {
+  header .logo {
+    max-width: 108px;
+  }
+  header nav ul {
+    display: none;
+  }
+  header .btn-mobile {
+    display: block;
+  }
+}
+
+@media (max-width: 489px) {
+  header {
+    height: 73px;
+  }
+  header nav .btn-secondary {
+    display: none;
+  }
+}
+
 footer {
   background-color: #0073CE;
   padding-top: 49px;
